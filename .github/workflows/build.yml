@@ -33,11 +33,28 @@ jobs:
         with:
           name: CustomDialogAccelerator.zip
           path: out/
+          
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v3.1.3
+        with:
+          name: CustomDialogAccelerator_managed.zip
+          path: out/
   release:
     name: Upload Build Artifact
     runs-on: windows-latest
     needs: build
     steps:
+      - name: Download Build Artifact Unmanaged
+        uses: actions/download-artifact@v3.1.3
+        with:
+          name: CustomDialogAccelerator.zip
+          path: out/
+      - name: Download Build Artifact Managed
+        uses: actions/download-artifact@v3.1.3
+        with:
+          name: CustomDialogAccelerator_managed.zip
+          path: out/
+          
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -51,8 +68,22 @@ jobs:
           draft: false
           prerelease: false
           
-      - name: Upload Build Artifact
-        uses: actions/upload-artifact@v3.1.3
+      - name: Upload Release Artifact Unmanaged
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
-          name: CustomDialogAccelerator.zip
-          path: out/       
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: out/CustomDialogAccelerator.zip
+          asset_name: CustomDialogAccelerator.zip
+          asset_content_type: application/zip
+       
+      - name: Upload Release Artifact Managed
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: out/CustomDialogAccelerator_managed.zip
+          asset_name: CustomDialogAccelerator_managed.zip
+          asset_content_type: application/zip 

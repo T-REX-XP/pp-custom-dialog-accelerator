@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build Solution
     runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
+    env: 
+      version: v1.0.0.${{ github.run_number }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -20,6 +22,10 @@ jobs:
       
       - name: Install Power Platform Tools
         uses: microsoft/powerplatform-actions/actions-install@v1.2.0
+
+      - name: Set Solution Version
+        run: $version
+          .\scripts\Set-SolutionVersion.ps1 -solutionFilePath "package\Other\Solution.xml" -newVersion $env:version
 
       - name: Pack Solution
         uses: microsoft/powerplatform-actions/pack-solution@v1.2.0

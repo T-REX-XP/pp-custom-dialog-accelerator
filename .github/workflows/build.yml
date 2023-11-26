@@ -10,7 +10,7 @@ jobs:
     name: Build Solution
     runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
     env: 
-      version: v1.0.0.${{ github.run_number }}
+      version: 1.0.0.${{ github.run_number }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2

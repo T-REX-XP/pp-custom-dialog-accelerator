@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7d24efdf-aad9-4d1e-a443-b65b6ba7c1b9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ddf894c4-8912-45e3-b59f-627ec3d6e801}" IsUserDefined="1" name="tabGeneral">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{251bee94-08e0-4fe7-992d-bf84997d40a0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5443515d-b154-4ea5-be47-cfdf9f66f3da}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="yn_name" uniqueid="{445685cd-6be7-4839-a247-6787c59cbbbb}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9d09f67-45b7-4d98-9a6c-4f874f6cd3a1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_title" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="yn_title" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="45921ad2-488b-42e7-be1e-14a94c8cc866" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Dialog Configuration" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8f86bbc-270f-436b-a19d-6ac04098007d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_usepixelsfordialogsize" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="yn_usepixelsfordialogsize" disabled="false" uniqueid="{e1671b78-ab8a-4099-8e65-9b3eb09deef7}" />
+                      </cell>
+                      <cell id="{6d9e3601-75d7-4b21-8f4f-b321c82b0f05}" userspacer="true" showlabel="false" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4718e733-f471-4701-b1e4-3b39ca5d7281}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_widthinpercentage" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="yn_widthinpercentage" disabled="false" />
+                      </cell>
+                      <cell id="{f84797f1-881a-40b7-b8c9-46d72c6edd4c}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_width" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="yn_width" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{101266ed-9d75-4aab-9d9e-6be77cbd452a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_heightinpercentage" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="yn_heightinpercentage" disabled="false" />
+                      </cell>
+                      <cell id="{d07e2fe7-6ef7-40dd-9e42-356e9c24183b}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_height" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="yn_height" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tabGeneral_section_4" id="cf79aa73-2a58-430f-afcd-d4d3324c960e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Actions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{6db553e5-ace9-4bd4-a0ad-64437731ff37}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{b5daa486-da37-4cf9-9785-7abf4a4b0e90}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc94fe1e-900d-4a1a-ab11-890f13f2f95a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="yn_refreshgridonclose" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="yn_refreshgridonclose" disabled="false" uniqueid="{d643bb20-2571-4c9d-9b39-07d73e645902}" />
+                      </cell>
+                      <cell locklevel="0" id="{ce4d9883-42be-40cb-aed2-c4841efe6493}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8bbf0a1d-6798-4095-96b1-cbdb3868475d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a30a04c1-8c9e-42ee-9942-5a457dc09d06}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0150d16d-03f7-480e-ba6b-7f590f348b88}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6058847f-bede-46f8-b567-51649b4112be}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5561394b-1e7e-42fd-8a4b-aa07b1f71a41}" colspan="1" rowspan="1">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{254d4c5d-549e-4c96-a6a4-e6dc8e832467}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{85c89bf7-2bbb-4f81-9e39-5b4966056bb7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{32e60bff-8898-4b0a-b6a5-d32bb332db19}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{be96d95e-79dc-409a-98b0-f345d72dab99}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{445685cd-6be7-4839-a247-6787c59cbbbb}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>yn_name</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="yn_YN.MetadataDropdown">
+            <parameters>
+              <value type="SingleLine.Text">yn_name</value>
+              <endpoint type="SingleLine.Text" static="true">canvasapp</endpoint>
+              <options type="SingleLine.Text" static="true">?$select=canvasapptype,displayname,name&amp;$filter=(canvasapptype eq 2)</options>
+              <key type="SingleLine.Text" static="true">name</key>
+              <text type="SingleLine.Text" static="true">displayname</text>
+              <mask type="SingleLine.Text" static="true">{{displayname}} ⭕ ({{name}})</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="yn_YN.MetadataDropdown">
+            <parameters>
+              <value type="SingleLine.Text">yn_name</value>
+              <endpoint type="SingleLine.Text" static="true">canvasapp</endpoint>
+              <options type="SingleLine.Text" static="true">?$select=canvasapptype,displayname,name&amp;$filter=(canvasapptype eq 2)</options>
+              <key type="SingleLine.Text" static="true">name</key>
+              <text type="SingleLine.Text" static="true">displayname</text>
+              <mask type="SingleLine.Text" static="true">{{displayname}} ⭕ ({{name}})</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="yn_YN.MetadataDropdown">
+            <parameters>
+              <value type="SingleLine.Text">yn_name</value>
+              <endpoint type="SingleLine.Text" static="true">canvasapp</endpoint>
+              <options type="SingleLine.Text" static="true">?$select=canvasapptype,displayname,name&amp;$filter=(canvasapptype eq 2)</options>
+              <key type="SingleLine.Text" static="true">name</key>
+              <text type="SingleLine.Text" static="true">displayname</text>
+              <mask type="SingleLine.Text" static="true">{{displayname}} ⭕ ({{name}})</mask>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d643bb20-2571-4c9d-9b39-07d73e645902}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>yn_refreshgridonclose</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">yn_refreshgridonclose</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">yn_refreshgridonclose</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">yn_refreshgridonclose</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{e1671b78-ab8a-4099-8e65-9b3eb09deef7}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>yn_usepixelsfordialogsize</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">yn_usepixelsfordialogsize</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">yn_usepixelsfordialogsize</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">yn_usepixelsfordialogsize</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

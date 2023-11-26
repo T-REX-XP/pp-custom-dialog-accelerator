@@ -1,0 +1,37 @@
+<appaction uniquename="yn__CustomCloneRecord!f98fd49e4fb94759aa23cd8a7a2c4b49!yn_CustomDialogAccelerator!account!1">
+  <appmoduleid>
+    <uniquename>yn_CustomDialogAccelerator</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Custom Clone Record">
+    <label description="Custom Clone Record" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>10.0000000000</buttonsequencepriority>
+  <context>1</context>
+  <contextentity>
+    <logicalname>account</logicalname>
+  </contextentity>
+  <contextvalue>account</contextvalue>
+  <fonticon>Clone</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>CustomCloneRecord!f98fd49e4fb94759aa23cd8a7a2c4b49</name>
+  <onclickeventjavascriptfunctionname>yn.Navigation.showDialog</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":21,"value":"yn_clonerecorddialog_984b9"},{"type":24},{"type":12}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>fa77ce25-d312-ee11-8f6d-000d3ada2b22</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>yn_customdialogacceleratordefaultcommandlibrary_86be4</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>a27ed0b849c84549b2934d9aeef7bb6e</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>

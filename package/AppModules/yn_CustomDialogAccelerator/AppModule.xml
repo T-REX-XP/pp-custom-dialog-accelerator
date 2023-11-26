@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>yn_CustomDialogAccelerator</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="yn_customdialogconfiguration" />
+    <AppModuleComponent type="62" schemaName="yn_CustomDialogAccelerator" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Custom Dialog Accelerator" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="yn_yn_CustomDialogAccelerator_canvasappid_yn_clonerecorddialog_984b9">
+      <canvasappid>
+        <name>yn_clonerecorddialog_984b9</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>yn_yn_CustomDialogAccelerator_canvasappid_yn_clonerecorddialog_984b9</name>
+    </appelement>
+    <appelement uniquename="yn_yn_CustomDialogAccelerator_canvasappid_yn_customdialogacceleratordefaultcommandlibrary_86be4">
+      <canvasappid>
+        <name>yn_customdialogacceleratordefaultcommandlibrary_86be4</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>yn_yn_CustomDialogAccelerator_canvasappid_yn_customdialogacceleratordefaultcommandlibrary_86be4</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="FluentThemingPreview">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

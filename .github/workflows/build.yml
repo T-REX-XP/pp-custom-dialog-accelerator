@@ -39,11 +39,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
-          tag_name: v${{ github.sha }}
-          release_name: Release-${{ github.sha }}
+          tag_name: v1.0.0.${{ github.run_number }}
+          release_name: Release-v1.0.0.${{ github.run_number }}
           body: |
             Changes in this Release:
-            - ...
+            - $(curl -s "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.before }}...${{ github.sha }}" -H "Authorization: Bearer ${{ secrets.PAT }}" | jq -r '.title + "\n" + .body')
+
           draft: false
           prerelease: false
         

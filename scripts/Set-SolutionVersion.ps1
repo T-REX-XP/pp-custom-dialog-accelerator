@@ -18,7 +18,7 @@ try {
 }
 
 # Update the version
-$solutionXml.solution.version = $newVersion
+$solutionXml.ImportExportXml.SolutionManifest.Version = $newVersion
 
 # Save the modified XML back to the solution.xml file
 try {

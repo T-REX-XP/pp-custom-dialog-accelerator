@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3  # Use v3 to get the latest version
         with:
-          node-version: '16'  # Update to Node.js 16
+          node-version: '18'  # Update to Node.js 18
       
       - name: Install Power Platform Tools
         uses: microsoft/powerplatform-actions/actions-install@v1.2.0

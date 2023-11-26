@@ -24,8 +24,8 @@ jobs:
         uses: microsoft/powerplatform-actions/actions-install@v1.2.0
 
       - name: Set Solution Version
-        run: $version
-          .\scripts\Set-SolutionVersion.ps1 -solutionFilePath "package\Other\Solution.xml" -newVersion $env:version
+        run: |
+          scripts\Set-SolutionVersion.ps1 -solutionFilePath "package\Other\Solution.xml" -newVersion $env:version
 
       - name: Pack Solution
         uses: microsoft/powerplatform-actions/pack-solution@v1.2.0

@@ -7,26 +7,35 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      
+      - name: Install Power Platform Tools
+        uses: microsoft/powerplatform-actions/actions-install@v1.2.0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Pack Solution
+        uses: microsoft/powerplatform-actions/pack-solution@v1.2.0
         with:
-          node-version: 14
+          solution-file: out/CustomDialogAccelerator.zip
+          solution-folder: ./package
+          solution-type: Both
+        
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 14
 
-      - name: Install Dependencies
-        run: npm install
+      # - name: Install Dependencies
+      #   run: npm install
 
-      - name: Build TypeScript
-        run: npm run build
+      # - name: Build TypeScript
+      #   run: npm run build
 
-      - name: Package Solution
-        run: npm pack
-        working-directory: ./dist  # Adjust the path based on your project structure
+      # - name: Package Solution
+      #   run: npm pack
+      #   working-directory: ./dist  # Adjust the path based on your project structure
 
   release:
     runs-on: ubuntu-latest

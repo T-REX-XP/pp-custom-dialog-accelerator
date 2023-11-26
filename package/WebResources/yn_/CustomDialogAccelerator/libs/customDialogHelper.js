@@ -12,7 +12,7 @@ yn.Navigation = {
         center: 1,
         farSide: 2
     },
-    getTargetRecordReference: function (control, isRibbonOnForm) {      
+    getTargetRecordReference: function (control, isRibbonOnForm) {
         if (isRibbonOnForm) {
             return {
                 entityName: control.entityReference.entityType,
@@ -55,10 +55,10 @@ yn.Navigation = {
             target: yn.Navigation.navigationOptionsTargetMode.dialog,
             position: yn.Navigation.position.center
         };
-        var dialogConfig = yn.Navigation.__getDialogConfig(dialogName);
-        var targetRef = yn.Navigation.getTargetRecordReference(selectedRecords ?? control, isRibbonOnForm);
+        var dialogConfig = await yn.Navigation.__getDialogConfig(dialogName);
+        var targetRef = yn.Navigation.getTargetRecordReference(selectedRecords?.length > 0 ? selectedRecords : control, isRibbonOnForm);
 
-        if(targetRef){
+        if (targetRef) {
             pageInput["entityName"] = targetRef.entityName;
             pageInput["recordId"] = targetRef.recordId;
         }

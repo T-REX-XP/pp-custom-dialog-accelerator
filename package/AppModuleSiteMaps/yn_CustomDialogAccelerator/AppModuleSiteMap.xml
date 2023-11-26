@@ -10,6 +10,21 @@
       <Titles>
         <Title LCID="1033" Title="Area1" />
       </Titles>
+      <Group Id="group_06af5733" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Intro" />
+        </Titles>
+        <SubArea Id="subarea_54f4ee5f" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="$webresource:yn_/CustomDialogAccelerator/html/intro.htm" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="false" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Introduction" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_14888c9d" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="$webresource:yn_/CustomDialogAccelerator/html/best_practices.htm" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Best Practices" />
+          </Titles>
+        </SubArea>
+      </Group>
       <Group Id="group_64d073ac" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Sandbox" />

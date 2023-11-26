@@ -26,6 +26,6 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"logicalname":"account","componenttype":1}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
-  <BackgroundImageUri>/CanvasApps/yn_customdialogacceleratordefaultcommandlibra95022_BackgroundImageUri</BackgroundImageUri>
-  <DocumentUri>/CanvasApps/yn_customdialogacceleratordefaultcommandlibra10434_DocumentUri.msapp</DocumentUri>
+  <BackgroundImageUri>/CanvasApps/yn_customdialogacceleratordefaultcommandlibra49143_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/yn_customdialogacceleratordefaultcommandlibra93792_DocumentUri.msapp</DocumentUri>
 </CanvasApp>

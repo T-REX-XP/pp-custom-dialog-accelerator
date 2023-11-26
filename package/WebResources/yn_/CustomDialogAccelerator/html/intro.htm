@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to the CustomDialog Accelerator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body class="container mt-5">
+
+    <h1 class="text-center mb-4">Welcome to the CustomDialog Accelerator</h1>
+    
+    <p class="text-center">It is a solution that aims to streamline the development of custom dialogs based on
+        <a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-page-to-model-app">Custom
+            page</a> functionality by utilizing the ready-made reference dialog as a template.</p>
+
+    <h2>How to use:</h2>
+    
+    <p class="instruction">0. Create the new dialog by copying (Save As) reference dialog.</p>
+    <img alt="img0" src="../imgs/0.png" class="img-fluid rounded mx-auto d-block mb-4">
+
+    <p>1. Make the configuration for the new dialog in the Custom Dialog Configuration table by creating a new record.</p>
+    <img alt="img1" src="../imgs/1.png" class="img-fluid rounded mx-auto d-block mb-4">
+    
+    <p>1.1 Implement the logic on the newly created dialog</p>
+
+    <p>2. Add a button to the ribbon using the modern ribbon editor</p>
+    <img alt="img3" src="../imgs/2.png" class="img-fluid rounded mx-auto d-block mb-4">
+
+    <p>2.1 Populate the default parameters for the action:</p>
+    <ul>
+        <li>Action: Run JavaScript</li>
+        <li>Library: yn_/CustomDialogAccelerator/libs/customDialogHelper.js</li>
+        <li>Function: yn.Navigation.showDialog</li>
+        <li>Parameter1 (Dialog Unique Name): yn_clonerecorddialog_984b9</li>
+        <li>Parameter2: SelectedControlSelectedItemReferences</li>
+        <li>Parameter3: SelectedControl</li>
+        <li>Visibility (Optional): Use a formula like this if necessary: CountRows(Self.Selected.AllItems) > 0</li>
+    </ul>
+    <img alt="img3.1" src="../imgs/2_1.png" class="img-fluid rounded mx-auto d-block mb-4">
+
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

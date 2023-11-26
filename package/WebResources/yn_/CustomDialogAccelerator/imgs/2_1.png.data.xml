@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{e273c45d-5b8c-ee11-8179-000d3ada2b22}</WebResourceId>
+  <Name>yn_/CustomDialogAccelerator/imgs/2_1.png</Name>
+  <DisplayName>yn_/CustomDialogAccelerator/imgs/2_1.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/yn_CustomDialogAcceleratorimgs2_1pngE273C45D-5B8C-EE11-8179-000D3ADA2B22</FileName>
+</WebResource>

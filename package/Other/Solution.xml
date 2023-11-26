@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23073.170" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23104.240" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CustomDialogsAccelerator</UniqueName>
     <LocalizedNames>
@@ -83,6 +83,12 @@
       <RootComponent type="1" schemaName="yn_customdialogconfiguration" behavior="0" />
       <RootComponent type="300" schemaName="yn_clonerecorddialog_984b9" behavior="0" />
       <RootComponent type="300" schemaName="yn_customdialogacceleratordefaultcommandlibrary_86be4" behavior="0" />
+      <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/html/best_practices.htm" behavior="0" />
+      <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/html/intro.htm" behavior="0" />
+      <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/imgs/0.png" behavior="0" />
+      <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/imgs/1.png" behavior="0" />
+      <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/imgs/2.png" behavior="0" />
+      <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/imgs/2_1.png" behavior="0" />
       <RootComponent type="61" schemaName="yn_/CustomDialogAccelerator/libs/customDialogHelper.js" behavior="0" />
       <RootComponent type="62" schemaName="yn_CustomDialogAccelerator" behavior="0" />
       <RootComponent type="80" schemaName="yn_CustomDialogAccelerator" behavior="0" />
@@ -93,7 +99,7 @@
         <Dependent type="80" schemaName="yn_CustomDialogAccelerator" displayName="Custom Dialog Accelerator" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2307.3016)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2310.4022)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Custom Dialog Configuration" id="{7d24efdf-aad9-4d1e-a443-b65b6ba7c1b9}" />
       </MissingDependency>
       <MissingDependency>
@@ -101,7 +107,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Custom Dialog Configuration" id="{7d24efdf-aad9-4d1e-a443-b65b6ba7c1b9}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="SettingDefinition" displayName="FluentThemingPreview" solution="msdyn_PowerAppsThemingSettings (1.0.0.8)" id.uniquename="FluentThemingPreview" />
+        <Required type="SettingDefinition" displayName="FluentThemingPreview" solution="msdyn_PowerAppsThemingSettings (1.0.0.11)" id.uniquename="FluentThemingPreview" />
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=yn_CustomDialogAccelerator,settingdefinitionid.uniquename=FluentThemingPreview" id.parentappmoduleid.uniquename="yn_CustomDialogAccelerator" id.settingdefinitionid.uniquename="FluentThemingPreview" />
       </MissingDependency>
     </MissingDependencies>
